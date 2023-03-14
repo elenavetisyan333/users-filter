@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+#part{
+  width: 360px;
+  height: 35px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.09);
+  transition: 0.1s;
+}
+#part:focus{
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: white;
+  transition: 0.1s;
+}
+#users{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px 20px;
+}
+#users p{
+  font-size: 19px;
+  font-weight: 700;
+  padding: 5px 3px;
+  text-shadow: 2px 1px 2px black;
+}
